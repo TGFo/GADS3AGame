@@ -1,0 +1,53 @@
+{
+  "dialogueLines": [
+    {
+      "line": "Dad: (Preparing dinner) Dinner will be ready soon, buddy",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "babyA",
+      "choice": false
+    },
+    {
+      "line": "Use this time to practice more signs with Baby (Triggers engaged narrative)",
+      "animTrigger": "babyB",
+      "lineTrigger": "babyA",
+      "nextLineTrigger": "lineA1",
+      "choice": true
+    },
+    {
+      "line": "Focus on cooking and let Baby play (Triggers practical narrative)",
+      "animTrigger": "anim",
+      "lineTrigger": "babyB",
+      "nextLineTrigger": "lineB1",
+      "choice": true
+    },
+    {
+      "line": "Dad: [signs] Eat soon",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA1",
+      "nextLineTrigger": "lineA2",
+      "choice": false
+    },
+    {
+      "line": "Baby: [signs] Eat",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    },
+    {
+      "line": "Dad: You’re doing great, buddy",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB1",
+      "nextLineTrigger": "lineB2",
+      "choice": false
+    },
+    {
+      "line": "Baby: [continues playing]",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    }
+  ]
+}

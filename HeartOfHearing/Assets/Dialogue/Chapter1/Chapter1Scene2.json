@@ -1,0 +1,53 @@
+{
+  "dialogueLines": [
+    {
+      "line": "Dad(you): It’s probably nothing, but it’s good to be sure",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "choice2A",
+      "choice": false
+    },
+    {
+      "line": "Reassure Mom ",
+      "animTrigger": "choice2B",
+      "lineTrigger": "choice2A",
+      "nextLineTrigger": "line2A1",
+      "choice": true
+    },
+    {
+      "line": "Express concern ",
+      "animTrigger": "anim",
+      "lineTrigger": "choice2B",
+      "nextLineTrigger": "line2B1",
+      "choice": true
+    },
+    {
+      "line": "Dad(you): Whatever it is, we’ll handle it together",
+      "animTrigger": "anim",
+      "lineTrigger": "line2A1",
+      "nextLineTrigger": "line2A2",
+      "choice": false
+    },
+    {
+      "line": "Mom: You're right. We’ll get through this",
+      "animTrigger": "anim",
+      "lineTrigger": "line2A2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    },
+    {
+      "line": "Dad(you): I hope everything’s okay. I’m really worried",
+      "animTrigger": "anim",
+      "lineTrigger": "line2B1",
+      "nextLineTrigger": "line2B2",
+      "choice": false
+    },
+    {
+      "line": "Mom: Me too. But we have to stay strong for him",
+      "animTrigger": "anim",
+      "lineTrigger": "line2B2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    }
+  ]
+}

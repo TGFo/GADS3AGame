@@ -1,0 +1,25 @@
+{
+  "dialogueLines": [
+    {
+      "line": "testline1",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "line2",
+      "choice": false
+    },
+    {
+      "line": "testline2",
+      "animTrigger": "anim",
+      "lineTrigger": "line2",
+      "nextLineTrigger": "line3",
+      "choice": false
+    },
+    {
+      "line": "testline3",
+      "animTrigger": "anim",
+      "lineTrigger": "line3",
+      "nextLineTrigger": "line1",
+      "choice": false
+    }
+  ]
+}

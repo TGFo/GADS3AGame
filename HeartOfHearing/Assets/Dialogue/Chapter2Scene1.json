@@ -1,0 +1,81 @@
+{
+  "dialogueLines": [
+    {
+      "line": "Mom(you): (I need to learn everything I can to help him)",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "line2",
+      "choice": false
+    },
+    {
+      "line": "*A knock on the door*",
+      "animTrigger": "anim",
+      "lineTrigger": "line2",
+      "nextLineTrigger": "doorKnock",
+      "choice": false
+    },
+    {
+      "line": "Open the door",
+      "animTrigger": "doorKnock1",
+      "lineTrigger": "doorKnock",
+      "nextLineTrigger": "line3",
+      "choice": true
+    },
+    {
+      "line": "Ignore",
+      "animTrigger": "anim",
+      "lineTrigger": "doorKnock1",
+      "nextLineTrigger": "chapterFail",
+      "choice": true
+    },
+    {
+      "line": "Mentor: Hi, I'm here to help guide you through the next steps",
+      "animTrigger": "anim",
+      "lineTrigger": "line3",
+      "nextLineTrigger": "choice1A",
+      "choice": false
+    },
+    {
+      "line": "Welcome the mentor and ask questions (Triggers supportive narrative)",
+      "animTrigger": "choice1B",
+      "lineTrigger": "choice1A",
+      "nextLineTrigger": "lineA1",
+      "choice": true
+    },
+    {
+      "line": "Feel overwhelmed and ask them to come back later (Triggers isolated narrative)",
+      "animTrigger": "anim",
+      "lineTrigger": "choice1B",
+      "nextLineTrigger": "lineB1",
+      "choice": true
+    },
+    {
+      "line": "Mom(you): Please come in. We have so many questions",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA1",
+      "nextLineTrigger": "lineA2",
+      "choice": false
+    },
+    {
+      "line": "Let’s start with understanding his world",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA2",
+      "nextLineTrigger": "end",
+      "choice": false
+    },
+    {
+      "line": "Mom(you): I’m not ready for this right now",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB1",
+      "nextLineTrigger": "lineB2",
+      "choice": false
+    },
+    {
+      "line": "Mentor: I understand. I’ll leave you some information and come back another time",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB2",
+      "nextLineTrigger": "end",
+      "choice": false
+    }
+  ]
+}

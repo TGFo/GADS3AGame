@@ -1,0 +1,53 @@
+{
+  "dialogueLines": [
+    {
+      "line": "Dad: *researching hearing aids and cochlear implants* There are so many options. It’s overwhelming",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "choice2A",
+      "choice": false
+    },
+    {
+      "line": "Focus on learning sign language first (Triggers engaged narrative)",
+      "animTrigger": "choice2B",
+      "lineTrigger": "choice2A",
+      "nextLineTrigger": "line2A1",
+      "choice": true
+    },
+    {
+      "line": "Prioritize medical interventions (Triggers medical narrative)",
+      "animTrigger": "anim",
+      "lineTrigger": "choice2B",
+      "nextLineTrigger": "line2B1",
+      "choice": true
+    },
+    {
+      "line": "Mom: Let’s start with sign language. It’s something we can do right away",
+      "animTrigger": "anim",
+      "lineTrigger": "line2A1",
+      "nextLineTrigger": "line2A2",
+      "choice": false
+    },
+    {
+      "line": "Dad: Okay, we’ll sign up for a class",
+      "animTrigger": "anim",
+      "lineTrigger": "line2A2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    },
+    {
+      "line": "Mom: We should look into hearing aids and implants",
+      "animTrigger": "anim",
+      "lineTrigger": "line2B1",
+      "nextLineTrigger": "line2B2",
+      "choice": false
+    },
+    {
+      "line": "Dad: I agree. Let’s talk to the specialist",
+      "animTrigger": "anim",
+      "lineTrigger": "line2B2",
+      "nextLineTrigger": "chapterEnd",
+      "choice": false
+    }
+  ]
+}

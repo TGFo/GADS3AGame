@@ -1,0 +1,53 @@
+{
+  "dialogueLines": [
+    {
+      "line": "Mom: *signs milk*",
+      "animTrigger": "anim",
+      "lineTrigger": "line1",
+      "nextLineTrigger": "babyA",
+      "choice": false
+    },
+    {
+      "line": "Try to imitate the sign (Triggers learning narrative)",
+      "animTrigger": "babyB",
+      "lineTrigger": "babyA",
+      "nextLineTrigger": "lineA1",
+      "choice": true
+    },
+    {
+      "line": "Cry for milk (Triggers nurturing narrative)",
+      "animTrigger": "anim",
+      "lineTrigger": "babyB",
+      "nextLineTrigger": "lineB1",
+      "choice": true
+    },
+    {
+      "line": "Baby: [attempts to sign] 'Milk'",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA1",
+      "nextLineTrigger": "lineA2",
+      "choice": false
+    },
+    {
+      "line": "Mom: Good job! You did it!",
+      "animTrigger": "anim",
+      "lineTrigger": "lineA2",
+      "nextLineTrigger": "end",
+      "choice": false
+    },
+    {
+      "line": "Baby: [cries]",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB1",
+      "nextLineTrigger": "lineB2",
+      "choice": false
+    },
+    {
+      "line": "Mom: It’s okay. Here’s your milk",
+      "animTrigger": "anim",
+      "lineTrigger": "lineB2",
+      "nextLineTrigger": "end",
+      "choice": false
+    }
+  ]
+}

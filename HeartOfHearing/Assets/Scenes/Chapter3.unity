@@ -307,6 +307,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+--- !u!20 &107816841 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5256384803381100468, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+  m_PrefabInstance: {fileID: 107816840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &107972671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -727,6 +732,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3298772155861266138, guid: 9d9c842d381ee824185fa809592beae1, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 107816841}
     - target: {fileID: 3903235654522735525, guid: 9d9c842d381ee824185fa809592beae1, type: 3}
       propertyPath: nextLevel
       value: MainMenu
@@ -1136,6 +1145,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3298772155861266138, guid: 9d9c842d381ee824185fa809592beae1, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 107816841}
     - target: {fileID: 6912276945629102039, guid: 9d9c842d381ee824185fa809592beae1, type: 3}
       propertyPath: m_Name
       value: DialogueManager
